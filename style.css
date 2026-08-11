@@ -114,6 +114,82 @@ body {
     justify-content: space-between;
 }
 
+.speakers h2 {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.speakers-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    gap: 2%;
+}
+
+.speaker-card {
+    width: 48%;
+    height: auto;
+    aspect-ratio: 14/10;
+    border: 2px solid #E5E7EB;
+    border-radius: 3%;
+    margin-top: 2.5%;
+}
+
+.speaker-card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+    border-radius: 3% 3% 0 0;
+    z-index: -1;
+    position: relative;
+}
+
+.speaker-card-texts {
+    padding: 2%;
+}
+
+.speaker-card h2 {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    /* line-height: 28px; */
+    text-align: left;
+    /* padding-top: 5%; */
+    margin: 0;
+    padding: 1%;
+}
+
+
+.speaker-card h3 {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #2563EB;
+    text-align: left;
+    margin: 0;
+    padding: 1%;
+
+}
+
+.speaker-card p {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #575757;
+    /* line-height: 28px; */
+    text-align: left;
+    /* padding-top: 5%; */
+    margin: 0;
+    padding: 1%;
+}
+
+
+
 /* div {
     border: 1px solid red;
 }
