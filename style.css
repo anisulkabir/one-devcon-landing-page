@@ -208,7 +208,7 @@ body {
 }
 
 .event-pass-container {
-    padding-top:5%;
+    padding-top: 5%;
     display: flex;
     justify-content: center;
     gap: 5%;
@@ -355,8 +355,41 @@ ul li {
 }
 
 
-footer {
-    min-height: 150px;
+.footer-section {
+    margin-top: 15%;
+    height: 145px;
+    background-color: #0D1B2A;
+    text-decoration: none;
+    color: white;
+    font-family: Inter, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-terms div {
+    margin-inline: 5%;
+}
+
+.footer-links {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-terms {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.footer-copyright {
+    width: 50%;
 }
 
 /* div {
