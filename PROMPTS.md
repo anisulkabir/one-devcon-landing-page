@@ -1,0 +1,5 @@
+## Exprimental prompt submitted to ChatGPT <https://chatgpt.com/>
+
+####Prompt:
+I am building a "Developer Conference" web page which may eventually be deployed as a registration and information hub throughout the campaign. The conference focuses on the use Artificial Intelligence agents in software development and deployment, orchestration, automation etc mostly related to  the Cloud services and web technologies. So far, I have added the navigation, the banner, speaker profile, and event-pass advertisement sections. I want to add another completely relevant section. Find what is the most relevant information or functionality I should be adding to a "DevCon" event landing page. Design and implement just one particular section with simply "html and CSS" and no Scripting/interactivity at this point. I want just the nice design of the section and its code for presentation purpose.
+So, write the section for me. Thank you.
