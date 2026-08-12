@@ -128,6 +128,7 @@ body {
     /* flex-direction: row; */
     justify-content: space-around;
     gap: 2%;
+    margin-bottom: 15%;
 }
 
 .speaker-card {
@@ -173,7 +174,6 @@ body {
     text-align: left;
     margin: 0;
     padding: 1%;
-
 }
 
 .speaker-card p {
@@ -188,7 +188,176 @@ body {
     padding: 1%;
 }
 
+.event-pass-section h2 {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    /* padding: 0; */
+    margin: 0;
+}
 
+.event-pass-section p {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #575757;
+    text-align: center;
+    /* padding-top: 5%; */
+
+}
+
+.event-pass-container {
+    padding-top:5%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.event-pass {
+    width: 24%;
+    height: auto;
+    aspect-ratio: 37/45;
+    border: 2px solid #E5E7EB;
+    border-radius: 4%;
+}
+
+.event-pass-texts {
+    padding: 10%;
+}
+
+.event-pass-header-texts {
+    aspect-ratio: 3/1;
+}
+
+.event-pass-header-texts h2 {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    text-align: left;
+    /* padding: 0; */
+    margin: 0;
+}
+
+.event-pass-header-texts h3 {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #888888;
+    text-align: left;
+    margin: 0;
+}
+
+.event-pass-header-texts p {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #888888;
+    text-align: left;
+    margin: 0;
+}
+
+hr {
+    margin-block: 5%;
+    background-color: #E5E7EB;
+    border: 0;
+    height: 1px;
+}
+
+.event-pass-texts button {
+    margin-top: 10%;
+    height: 45px;
+    width: 100%;
+    border: 2px solid #2563EB;
+    background-color: transparent;
+    border-radius: 8px;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 14px;
+    color: #2563EB;
+}
+
+ul {
+    margin-inline: 0;
+    line-height: 24px;
+    padding-inline: 0%;
+    /* list-style-type: none; */
+    list-style-position: inside;
+}
+
+ul li {
+    /* padding: 0; */
+    font-family: Inter, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #333333;
+    text-align: left;
+    /* margin-inline: 0; */
+}
+
+/* --- event-pass pro varient --- */
+
+.event-pass--pro {
+    background-color: #0D1B2A;
+    border: 2px solid #E5E7EB;
+}
+
+.event-pass-header-texts--pro h2 {
+    color: white;
+}
+
+.event-pass-header-texts--pro h3 {
+    color: white;
+}
+
+.event-pass-header-texts--pro p {
+    color: #888888;
+}
+
+.event-pass-texts--pro button {
+    background-color: #2563EB;
+    color: white;
+}
+
+
+.event-pass-body-texts--pro ul li {
+    color: white;
+}
+
+
+/* --- event-pass team varient --- */
+
+.event-pass--team {
+    background-color: #F8F9FB;
+    border: 2px solid #E5E7EB;
+}
+
+.event-pass-header-texts--team h2 {
+    color: #0D1B2A;
+}
+
+.event-pass-header-texts--team h3 {
+    color: #888888;
+}
+
+.event-pass-header-texts--team p {
+    color: #888888;
+}
+
+.event-pass-texts--team button {
+    background-color: transparent;
+    color: #0D1B2A;
+    border-color: #0D1B2A;
+}
+
+.event-pass-body-texts--team ul li {
+    color: #333333;
+}
+
+
+footer {
+    min-height: 150px;
+}
 
 /* div {
     border: 1px solid red;
